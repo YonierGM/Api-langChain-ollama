@@ -18,13 +18,14 @@ Esta API está construida con FastAPI y permite interactuar con un modelo de len
 ```bash
 git clone https://github.com/YonierGM/Api-langChain-ollama.git
 cd Api-langChain-ollama
-
+```
 2. Instalar paquetes:
 
 ```bash
 pip install -r requirements.txt
-
+```
 3. Ejecutar:
 
 ```bash
 uvicorn main:app --reload  
+```
