@@ -19,12 +19,25 @@ Esta API está construida con FastAPI y permite interactuar con un modelo de len
 git clone https://github.com/YonierGM/Api-langChain-ollama.git
 cd Api-langChain-ollama
 ```
-2. Instalar paquetes:
+
+2. Crear entorno virtual:
+
+```bash
+python -m venv venv
+```
+
+3. Activar entorno virtual:
+
+```bash
+.\venv\Scripts\activate
+```
+
+4. Instalar paquetes:
 
 ```bash
 pip install -r requirements.txt
 ```
-3. Ejecutar:
+5. Ejecutar:
 
 ```bash
 uvicorn main:app --reload  
