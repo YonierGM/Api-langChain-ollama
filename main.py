@@ -33,8 +33,8 @@ load_dotenv()  # Cargar .env
 
 # Configurar el modelo desde el .env
 llm = ChatOllama(
-    model=os.getenv("MODEL_NAME", "llama3.2:3b"),
-    temperature=float(os.getenv("TEMPERATURE", 0.7)),
+    model="llama3.2:3b",
+    temperature=0.7,
 )
 
 # Request body
