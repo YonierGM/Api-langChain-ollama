@@ -31,7 +31,6 @@ app.add_middleware(
 
 load_dotenv()  # Cargar .env
 
-# Configurar el modelo desde el .env
 llm = ChatOllama(
     model="llama3.2:3b",
     temperature=0.7,
